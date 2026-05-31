@@ -13,6 +13,49 @@ body {
   line-height: 1.6;
 }
 
+/* Navbar Styling */
+nav {
+  background-color: #1a472a;
+  padding: 16px 0;
+  border-bottom: 3px solid #2d6e47;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.navbar-links a {
+  color: #e8f5e9;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-links a:hover {
+  color: #ffffff;
+  border-bottom: 2px solid #4caf50;
+}
+
 .container {
   max-width: 960px;
   margin: 0 auto;
